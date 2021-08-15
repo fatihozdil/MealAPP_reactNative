@@ -1,4 +1,4 @@
-import Category from "../models/Category";
+import Category from "../models/category";
 
 export const CATEGORIES = [
     new Category('c1', 'Italian', '#f5428d'),
