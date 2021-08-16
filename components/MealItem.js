@@ -57,11 +57,11 @@ const styles = StyleSheet.create({
     overflow: "hidden",
     marginVertical: 10,
   },
-  mealRow: {
-    flexDirection: "row",
-  },
   mealHeader: {
     height: "85%",
+  },
+  mealRow: {
+    flexDirection: "row",
   },
   mealDetail: {
     paddingHorizontal: 10,
