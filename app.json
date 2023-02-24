@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "rn-meal-app",
-    "slug": "rn-meal-app",
+    "name": "Meal Mosaic",
+    "slug": "meal-mosaic",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/Meal Logo.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/Meal Logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -21,12 +21,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/Meal Logo.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.fatihozdil.mealmosaic"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d30c1f4a-8911-4521-8d3d-08b4689b76fa"
+      }
     }
   }
 }
